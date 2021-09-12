@@ -6,13 +6,13 @@ body {
 
 
 a {
-  color: #e52145;
+  color: #057ad3;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #e52145;
+  color: #008df8;
   outline: none;
   text-decoration: none;
 }
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #e52145;
+  background: #057ad3;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -66,13 +66,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #e52145;
+  background: #057ad3;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e52145;
+  background: #057ad3;
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #e52145;
+  background: #057ad3;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-fixed {
-  background:rgba(0, 0, 0, 0.897);
+  background:white;
   height: 100px;
   transition: all 0.5s;
 }
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(0, 29, 133, 0.61);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .menu-active a, .nav-menu a:hover {
-  color: #fff;
+  color: rgb(0, 29, 133);
 }
 
 .nav-menu > li {
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #e52145;
+  background-color: #057ad3;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -270,10 +270,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #e52145;
+  background: #057ad3;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #e52145;
+  border: 2px solid #057ad3;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #e52145;
+  background: #057ad3;
   color: #fff;
 }
 
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: rgb(0, 29, 133)f;
 }
 
 @media (max-width: 991px) {
@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(229, 33, 69, 0.822);
+  background: #057ad3;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #e52145;
+  color: #057ad3;
 }
 
 #mobile-nav ul li li {
@@ -401,11 +401,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #e52145;
+  color: #057ad3;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #e52145;
+  color: #057ad3;
 }
 
 #mobile-body-overly {
@@ -439,7 +439,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/IEEE\ day.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -453,7 +453,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(0, 0, 0, 0.836);
+  background: rgba(255, 255, 255, 0.349);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -482,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
+  color: #057ad3;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #e52145;
+  color: #057ad3;
 }
 
 @media (max-width: 991px) {
@@ -515,7 +515,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#e52145 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#057ad3 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -561,7 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #e52145;
+  border-left: 15px solid #057ad3;
   transform: scale(20);
 }
 
@@ -594,14 +594,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #057ad3;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #e52145;
+  border: 2px solid #057ad3;
 }
 
 #intro .about-btn:hover {
-  background: #e52145;
+  background: #057ad3;
   color: #fff;
 }
 
@@ -649,7 +649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: #e5214580;
+  background: #054b8196;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -736,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #e52145;
+  color: #057ad3;
 }
 
 #faq #faq-list a.collapsed {
@@ -771,7 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .timeline ul li{
   text-align: center;
-  background-color:#e52145;
+  background-color:#057ad3;
   color: white;
   padding-top: 20px;
   border-radius: 10px;
@@ -817,7 +817,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 2px;
     left:50%;
     transform: translateX(-50%);
-    background-color: #e52145;
+    background-color: #057ad3;
   }
   
   .timeline ul li{
@@ -859,7 +859,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .timeline ul li:hover:after{
-    background-color:#e52145;
+    background-color:#057ad3;
   }
 }
 
