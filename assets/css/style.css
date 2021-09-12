@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-fixed {
-  background:rgba(0, 0, 0, 0.897);
+  background:white;
   height: 100px;
   transition: all 0.5s;
 }
@@ -270,10 +270,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #e52145;
+  background: #057ad3;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #e52145;
+  border: 2px solid #057ad3;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -439,7 +439,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/IEEE\ day.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
