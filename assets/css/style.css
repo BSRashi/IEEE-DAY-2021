@@ -482,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
+  color: #057ad3;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -649,7 +649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: #057ad380;
+  background: #054b8196;
   position: absolute;
   bottom: 0;
   top: 0;
