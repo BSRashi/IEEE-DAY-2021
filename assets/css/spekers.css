@@ -1,24 +1,19 @@
 #speakers {
-    padding: 30px;
-    /* background: url("../img/Security.jpg"); */
-    /* background-size: cover; */
-    overflow: hidden;
-    position: relative;
-    color: #fff;
-    padding: 60px 0 40px 0;
-    /* text-align: justify; */
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
 }
 
 .containerx {
-    margin: 20px 40px;
-    color: darkblue;
-    /* justify-content: center; */
+    width: 100%;
+    /* color: darkblue; */
+    justify-content: center;
 }
 
 .containerx .profiles {
     display: flex;
     justify-content: space-evenly;
-    /* margin: 20px 80px; */
+    margin: 20px 80px;
 }
 
 .containerx .profiles .profile {
@@ -29,30 +24,18 @@
 .containerx .profiles .profile .profile-img {
     height: 300px;
     width: 300px;
-    /* border-radius: 50%; */
     border-radius: 15px;
     object-fit: cover;
     cursor: pointer;
     transition: 400ms;
 }
 
-.containerx .profiles .profile .profile-img:hover {
-    height: 350px;
-    width: 350px;
-    /* border-radius: 50%; */
-    border-radius: 15px;
-}
-
 .containerx .profiles .profile .user-name {
     margin-top: 30px;
     font-size: 35px;
+    font-weight: 400;
     transition: 400ms;
     text-align: center;
-}
-
-.containerx .profiles .profile .user-name:hover {
-    /* margin-top: 30px; */
-    font-size: 36px;
 }
 
 .containerx .profiles .profile h5 {
@@ -65,6 +48,54 @@
 
 .containerx .profiles .profile p {
     font-size: 16px;
-    margin-top: 20px;
     text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+    .containerx .profiles .profile .profile-img:hover {
+        height: 350px;
+        width: 350px;
+        border-radius: 15px;
+    }
+    .containerx .profiles .profile .user-name:hover {
+        font-size: 36px;
+    }
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+    .containerx .profiles {
+        margin: 10px 100px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .containerx .profiles .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    .containerx .profiles .profile .profile-img {
+        height: 250px;
+        width: 250px;
+        margin: 0;
+    }
+    .containerx .profiles .profile .user-name {
+        margin: 0;
+        font-size: 30px;
+    }
+    .containerx .profiles .profile .h5 {
+        margin: 0;
+        font-size: 25px;
+    }
+    .containerx .profiles .profile p {
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+        font-size: 16px;
+    }
 }
