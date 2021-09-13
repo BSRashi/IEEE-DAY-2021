@@ -635,8 +635,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size : contain;
   overflow: hidden;
   position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
+  color: #ffff;
+  padding: 60px 0 47px 0;
   text-align: justify;
 }
 
@@ -773,7 +773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background-color:#057ad3;
   color: white;
-  padding-top: 20px;
+  padding-top: 25px;
   border-radius: 10px;
 }
 
@@ -876,7 +876,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*organized-by sec*/
 .organized-by-sec{
-  background-color:white;
+  background: url("../img/IEEE day.jpg");
+
 }
 
 
