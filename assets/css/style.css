@@ -752,9 +752,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
-  margin-top: 80px;
-  height: 420vh;
+  margin-top: 20px;
+  height: 400vh;
   align-items: center !important;
+}
+
+#schedule {
+  padding: 60px 0;
 }
 
 .timeline{
@@ -773,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background-color:#057ad3;
   color: white;
-  padding-top: 25px;
+  padding-top: 20px;
   border-radius: 10px;
 }
 
