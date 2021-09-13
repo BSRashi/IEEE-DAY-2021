@@ -1,0 +1,78 @@
+#speakers {
+    padding: 30px;
+    /* background: url("../img/Security.jpg"); */
+    /* background-size: cover; */
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+    /* text-align: justify; */
+}
+
+.containerx {
+    margin: 20px 40px;
+    color: darkblue;
+}
+
+
+/* .containerx .heading {
+    font-size: 60px;
+    /* color: aqua; */
+
+
+/* } */
+
+.containerx .heading span {
+    font-size: 60px;
+    /* color: aqua; */
+}
+
+.containerx .profiles {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 20px 80px; */
+}
+
+.containerx .profiles .profile {
+    flex-basis: 260px;
+}
+
+.containerx .profiles .profile .profile-img {
+    height: auto;
+    width: 260px;
+    border-radius: 15px;
+    /* filter: grayscale(100%); */
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.containerx .profiles .profile .profile-img:hover {
+    height: auto;
+    width: 270px;
+}
+
+.containerx .profiles .profile .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+    transition: 400ms;
+    text-align: center;
+}
+
+.containerx .profiles .profile .user-name:hover {
+    /* margin-top: 30px; */
+    font-size: 36px;
+}
+
+.containerx .profiles .profile h5 {
+    /* margin-top: 30px; */
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.containerx .profiles .profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
