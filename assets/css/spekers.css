@@ -12,19 +12,7 @@
 .containerx {
     margin: 20px 40px;
     color: darkblue;
-}
-
-
-/* .containerx .heading {
-    font-size: 60px;
-    /* color: aqua; */
-
-
-/* } */
-
-.containerx .heading span {
-    font-size: 60px;
-    /* color: aqua; */
+    /* justify-content: center; */
 }
 
 .containerx .profiles {
@@ -35,20 +23,24 @@
 
 .containerx .profiles .profile {
     flex-basis: 260px;
+    width: 50%;
 }
 
 .containerx .profiles .profile .profile-img {
-    height: auto;
-    width: 260px;
+    height: 300px;
+    width: 300px;
+    /* border-radius: 50%; */
     border-radius: 15px;
-    /* filter: grayscale(100%); */
+    object-fit: cover;
     cursor: pointer;
     transition: 400ms;
 }
 
 .containerx .profiles .profile .profile-img:hover {
-    height: auto;
-    width: 270px;
+    height: 350px;
+    width: 350px;
+    /* border-radius: 50%; */
+    border-radius: 15px;
 }
 
 .containerx .profiles .profile .user-name {
